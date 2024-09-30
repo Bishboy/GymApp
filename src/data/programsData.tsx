@@ -9,8 +9,8 @@ export const programsData: Program[] = [
   {
     image: (
       <svg
-        width="16"
-        height="15"
+        width="26"
+        height="25"
         viewBox="0 0 16 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -24,8 +24,8 @@ export const programsData: Program[] = [
   {
     image: (
       <svg
-        width="16"
-        height="17"
+        width="26"
+        height="27"
         viewBox="0 0 16 17"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -44,8 +44,8 @@ export const programsData: Program[] = [
   {
     image: (
       <svg
-        width="12"
-        height="16"
+        width="22"
+        height="26"
         viewBox="0 0 12 16"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -59,8 +59,8 @@ export const programsData: Program[] = [
   {
     image: (
       <svg
-        width="20"
-        height="16"
+        width="30"
+        height="26"
         viewBox="0 0 20 16"
         xmlns="http://www.w3.org/2000/svg"
       >
