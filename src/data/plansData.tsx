@@ -3,6 +3,7 @@ interface Plan {
   name: string;
   price: string;
   features: string[];
+  id: number
 }
 
 export const plansData: Plan[] = [
@@ -18,7 +19,9 @@ export const plansData: Plan[] = [
       </svg>
     ),
     name: "BASIC PLAN",
+    id: 1,
     price: "25",
+
     features: [
       "2 hours of excercises",
       "Free consultaion to coaches",
@@ -38,6 +41,7 @@ export const plansData: Plan[] = [
     ),
     name: "PREMIUM PLAN",
     price: "30",
+    id: 2,
     features: [
       "5 hour of excercises",
       "Free consultaion of Coaches",
@@ -57,6 +61,7 @@ export const plansData: Plan[] = [
     ),
     name: "PRO PLAN",
     price: "45",
+    id: 3,
     features: [
       "8 hours of excercises",
       "Consultation of Private Coach",
