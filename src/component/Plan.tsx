@@ -38,7 +38,7 @@ const Plan = () => {
             <div>
               <span className='text-[o.8rem]'>See more benefits</span>
             </div>
-            <button className="btn">Join now</button>
+            <button className="btn bg-white text-black">Join now</button>
           </div>
         ))}
       </div>
