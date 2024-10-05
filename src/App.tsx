@@ -6,6 +6,7 @@ import Reasons from './component/Reasons'
 import Plan from './component/Plan'
 import Testimonial from './component/Testimonial'
 import Join from './component/Join'
+import Footer from './component/Footer'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Plan />
       <Testimonial />
       <Join />
+      <Footer />
     </div>
   )
 }

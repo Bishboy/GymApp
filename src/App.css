@@ -28,5 +28,12 @@
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-color: white;
 }
+.blurr{
+  position: absolute;
+  border-radius: 50%;
+  fill-opacity: 3rem;
+  z-index: -9;
+  
+}
  
   

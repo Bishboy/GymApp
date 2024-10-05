@@ -21,6 +21,7 @@ const Testimonial = () => {
             setSelected((prev)=> prev + 1)
         }
     }
+    
   return (
     <div className=" flex gap-[1rem] px-[2rem]">
       <div className="flex flex-1 gap-[2rem] flex-col uppercase text-white">

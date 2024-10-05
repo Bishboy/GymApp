@@ -8,6 +8,7 @@ import Calories from "../../src/assets/calories.png";
 const Hero: React.FC = () => {
   return (
     <div className="flex justify-between px-[4rem]  gap-2  ">
+      <div className="blurr w-[52rem] blur-2xl h-[50rem] mt-5 animate-spin left-0 bg-[#fd782b]/20"></div>
       <div className="py-[1rem] flex flex-col gap-[2rem] px-2 w-[70%] ">
         <Header />
         <div className="mt-[4rem] bg-[#363d42] relative text-white items-center justify-start uppercase rounded-[4rem] w-fit p-4 px-6">
@@ -78,8 +79,10 @@ const Hero: React.FC = () => {
         <div className="flex gap-[2rem]  p-[1rem] items-center justify-center px-[4rem] absolute top-[32rem] right-[28rem] w-fit rounded-[5px] bg-[#656565]">
           <img src={Calories} alt="" className="w-[3rem]" />
           <div className="flex flex-col justify-between">
-            <span className="whitespace-nowrap text-sm" >Calories Burned</span>
-            <span className="text-white text-[1.5rem] whitespace-nowrap" >220 kcal</span>
+            <span className="whitespace-nowrap text-sm">Calories Burned</span>
+            <span className="text-white text-[1.5rem] whitespace-nowrap">
+              220 kcal
+            </span>
           </div>
         </div>
       </div>
