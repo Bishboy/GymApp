@@ -10,7 +10,7 @@ import tick from "../../src/assets/tick.png";
 
 const Reasons = () => {
   return (
-    <div className="px-[2rem] flex  gap-[2rem]">
+    <div className="px-[2rem] flex flex-col-reverse md:flex-row gap-[2rem]">
       <div className="flex-1 grid grid-cols-3 gap-4 auto-rows-fr">
         <img
           src={image1}
@@ -33,6 +33,7 @@ const Reasons = () => {
           className="object-cover w-[10rem]  h-[11.2rem] "
         />
       </div>
+
       <div className="flex-1 uppercase gap-[1rem] flex flex-col ">
         <span className=" font-bold text-orange-500">Some reasons</span>
         <div className="text-[3rem] text-white font-bold">

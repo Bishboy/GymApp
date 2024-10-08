@@ -27,7 +27,7 @@ const Testimonial = () => {
     }
     
   return (
-    <div className=" flex gap-[1rem] px-[2rem]">
+    <div className=" flex flex-col py-[2rem] md:flex-row gap-[3rem] md:gap-[1rem] px-[2rem]">
       <div className="flex flex-1 gap-[2rem] flex-col uppercase text-white">
         <span className="text-orange-500 font-bold">testimonials</span>
         <span className="strokeText font-bold text-[3rem]">What they</span>
@@ -49,18 +49,19 @@ const Testimonial = () => {
           -{testimonialsData[selected].status}
         </span>
       </div>
-      <div className="relative flex-1">
+
+      <div className="relative flex-1 flex flex-col py-[10rem] md:py-0 ">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           transition={{ ...transition, duration: 2 }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="absolute w-[17rem] h-[20rem] border-2 border-orange-400 right-[9rem] bg-transparent top-[0.9rem]"
+          className="absolute w-[17rem] h-[20rem] border-2 border-orange-400 right-[3rem] md:right-[9rem] bg-transparent top-[0.9rem]"
         ></motion.div>
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           transition={{ ...transition, duration: 2 }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="absolute w-[17rem] h-[19rem] top-[4rem] bg-orange-500 right-[7rem]"
+          className="absolute w-[17rem] h-[19rem] top-[4rem] bg-orange-500 right-[3rem] md:right-[7rem]"
         ></motion.div>
         <motion.img
           key={selected}
@@ -70,7 +71,7 @@ const Testimonial = () => {
           transition={transition}
           src={testimonialsData[selected].image}
           alt=""
-          className="absolute w-[17rem] h-[20rem] object-cover right-[8rem] top-[2rem] "
+          className="absolute  w-[17rem] h-[20rem] object-cover right-[3rem] md:right-[8rem] top-[2rem] "
         />
         <div className="flex gap-2 items-center absolute left-[3rem] bottom-[1rem]  ">
           <img
