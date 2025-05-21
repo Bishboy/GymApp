@@ -72,7 +72,7 @@ const Header = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ duration: 0.3 }}
-            className="md:hidden fixed top-[5rem] left-0 w-full h-[calc(100vh-5rem)] bg-[#b0a8a3] flex items-center justify-center"
+            className="md:hidden fixed top-[4rem] left-0 w-full h-[calc(100vh-5rem)] bg-[#b0a8a3] flex items-center justify-center"
           >
             <ul className="flex flex-col items-center gap-8 text-white text-xl">
               {["home", "programs", "why-us", "plans", "testimony"].map(

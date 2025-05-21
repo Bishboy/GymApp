@@ -70,10 +70,10 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-1 relative bg-none md:bg-[#f48915]">
-        <button className="btn bg-white absolute right-[3rem] text-black top-[2rem] whitespace-nowrap">
+      <div className="flex  flex-1 relative bg-none md:bg-[#f48915]">
+        {/* <button className="btn bg-white absolute right-[3rem] text-black top-[2rem] whitespace-nowrap">
           Join now
-        </button>
+        </button> */}
         <motion.div
           className="flex flex-col bg-[#464D53] items-center rounded-[5px] absolute right-[4rem] left-[1rem] md:top-[7rem] w-fit p-[1rem]  h-fit gap-[1rem]"
           initial={{ right: "-1rem" }}
