@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import image1 from "../../src/assets/image1.png";
 import image2 from "../../src/assets/image2.png";
 import image3 from "../../src/assets/image3.png";
@@ -10,7 +10,10 @@ import tick from "../../src/assets/tick.png";
 
 const Reasons = () => {
   return (
-    <div className="px-[2rem] flex flex-col-reverse md:flex-row gap-[2rem]">
+    <div
+      id="why-us"
+      className="px-[2rem] flex flex-col-reverse md:flex-row gap-[2rem]"
+    >
       <div className="flex-1 grid grid-cols-3 gap-4 auto-rows-fr">
         <img
           src={image1}
@@ -62,9 +65,9 @@ const Reasons = () => {
           Our Partners
         </span>
         <div className="flex gap-[1rem]">
-          <img src={nb} alt=""  className="w-[2.5rem]"/>
+          <img src={nb} alt="" className="w-[2.5rem]" />
           <img src={addidas} alt="" className="w-[2.5rem]" />
-          <img src={nike} alt=""  className="w-[2.5rem]"/>
+          <img src={nike} alt="" className="w-[2.5rem]" />
         </div>
       </div>
     </div>

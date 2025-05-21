@@ -1,12 +1,15 @@
-import React from "react";
+ 
 import { plansData } from "../data/plansData";
 import whiteTick from "../assets/whiteTick.png";
 
 const Plan = () => {
   return (
-    <div className="mt-[4rem] px-[2rem] flex flex-col gap-[4rem] relative">  
-        <div className="blurr w-[52rem] blur-2xl h-[50rem] mt-5 animate-spin left-0 bg-[#fd782b]/20"></div>
-        <div className="blurr w-[52rem] blur-2xl h-[50rem] mt-5 animate-spin right-0 bg-[#fd782b]/20"></div>
+    <div
+      id="plans"
+      className="mt-[4rem] px-[2rem] flex flex-col gap-[4rem] relative"
+    >
+      <div className="blurr w-[52rem] blur-2xl h-[50rem] mt-5 animate-spin left-0 bg-[#fd782b]/20"></div>
+      <div className="blurr w-[52rem] blur-2xl h-[50rem] mt-5 animate-spin right-0 bg-[#fd782b]/20"></div>
       <div className=" flex flex-col md:flex-row md:gap-[2rem] items-center justify-center font-bold md:text-[3rem] text-[1.5rem]">
         <span className="strokeText">READY TO START</span>
         <span> YOUR JOURNEY</span>

@@ -11,7 +11,10 @@ const Hero: React.FC = () => {
   const transition = {type: 'spring', duration: 3}
   const mobile = window.innerWidth <= 788 ? true: false;
   return (
-    <div className="flex flex-col md:flex-row justify-between md:px-[4rem] px-2  gap-2  ">
+    <div
+      id="home"
+      className="flex flex-col md:flex-row justify-between md:px-[4rem] px-2  gap-2  "
+    >
       <div className="blurr w-[25rem]  lg:w-[52rem] blur-2xl h-[50rem] mt-5  left-0 bg-[#fd782b]/20"></div>
       <div className="py-[1rem] flex flex-col gap-[2rem] px-2 md:w-[70%]  items-center md:items-start ">
         <Header />
@@ -27,7 +30,7 @@ const Hero: React.FC = () => {
           </span>
         </div>
 
-        <div className="flex flex-col gap-[1.5rem] uppercase md:text-[4.5rem] text-center md:text-start font-bold text-white truncate ">
+        <div className="flex i flex-col gap-[1.5rem] uppercase md:text-[4.5rem] text-center md:text-start font-bold text-white truncate ">
           <div>
             <span className="strokeText ">Shape </span>
             <span>Your</span>
@@ -58,7 +61,8 @@ const Hero: React.FC = () => {
         </div>
         <div className="flex gap-[1rem]  ">
           <button className="btn text-white md:textbase text-xs whitespace-nowrap bg-[#f48915] rounded-md md:w-[8rem]">
-            Get Started
+            {" "}
+            <a href="#plans"> Get Started</a>
           </button>
           <button className="btn text-white md:text-base text-xs  whitespace-nowrap bg-transparent border-[#f48915] rounded-md md:w-[8rem]">
             Learn more
@@ -103,7 +107,9 @@ const Hero: React.FC = () => {
         >
           <img src={Calories} alt="" className="md:w-[3rem] w-[2rem]" />
           <div className="flex flex-col justify-between">
-            <span className="whitespace-nowrap text-white text-xs md:text-sm">Calories Burned</span>
+            <span className="whitespace-nowrap text-white text-xs md:text-sm">
+              Calories Burned
+            </span>
             <span className="text-gray-400 md:text-[1.5rem] whitespace-nowrap">
               220 kcal
             </span>

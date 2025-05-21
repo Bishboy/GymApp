@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { testimonialsData } from '../data/testimonialsData'
 import rightArrow from '../assets/rightArrow.png'
 import leftArrow from '../assets/leftArrow.png'
@@ -27,7 +27,10 @@ const Testimonial = () => {
     }
     
   return (
-    <div className=" flex flex-col py-[2rem] md:flex-row gap-[3rem] md:gap-[1rem] px-[2rem]">
+    <div
+      id="testimony"
+      className=" flex flex-col py-[2rem] md:flex-row gap-[3rem] md:gap-[1rem] px-[2rem]"
+    >
       <div className="flex flex-1 gap-[2rem] flex-col uppercase text-white">
         <span className="text-orange-500 font-bold">testimonials</span>
         <span className="strokeText font-bold text-[3rem]">What they</span>

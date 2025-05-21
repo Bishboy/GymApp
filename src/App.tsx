@@ -1,4 +1,4 @@
-import { useState } from 'react'
+ 
 import Hero from './component/Hero'
 import './App.css'
 import Programs from './component/Programs'
@@ -20,7 +20,7 @@ function App() {
       <Plan />
       <Testimonial />
       <Join />
-      <Footer />
+      <Footer />/
     </div>
   )
 }

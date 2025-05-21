@@ -11,7 +11,7 @@
 
  const Programs: React.FC = () => {
    return (
-     <div className="flex flex-col gap-[2rem] px-[2rem] py-9">
+     <div id="programs" className="flex flex-col gap-[2rem] px-[2rem] py-9">
        <div className="flex flex-col md:flex-row md:gap-[5rem] text-[1.5rem] text-center md:text-start md:text-[3rem] font-bold justify-center text-white uppercase italic whitespace-nowrap">
          <span className="strokeText">Explore our</span>
          <span>Programs</span>

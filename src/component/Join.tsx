@@ -1,4 +1,4 @@
-import React, { useRef, FormEvent, useState } from "react";
+import { useRef, FormEvent, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FiLoader } from "react-icons/fi";
 
@@ -40,7 +40,7 @@ const Join = () => {
         </div>
       </div>
 
-      <div className="bg-white relative">
+      <div className=" relative">
         <form
           ref={formRef}
           className="flex md:gap-[3rem] bg-gray-400 p-[1rem] gap-1 md:px-8 rounded"
@@ -52,7 +52,7 @@ const Join = () => {
             placeholder="Enter your Email address"
             className="bg-transparent border-none outline-none text-gray-200 placeholder:text-gray-200 "
           />
-          <button className="btn bg-orange-400 text-white  whitespace-nowrap">
+          <button className="btn bg-orange-400 text-white text-xs md:text-base whitespace-nowrap">
             {loading ? <FiLoader className="animate-spin w-[3rem] " /> : "Join now"}
           </button>
         </form>
